@@ -17,15 +17,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
+# OSX meta
 .AppleDouble
+.DS_Store
 .LSOverride
 
 # Thumbnails
@@ -36,8 +30,28 @@ $RECYCLE.BIN/
 .Trashes
 
 # Directories potentially created on remote AFP share
+.apdisk
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
-.apdisk
+
+# SBT-generated folders
+es
+lib/
+META-INF/
+out/
+project/target/
+project/project/target/
+target/
+
+# IntelliJ-specific files and folders
+.idea/
+.idea_modules/
+*.iml
+
+# Eclipse-specific files and folders
+.classpath
+.project
+.sbtserver/
+.settings/
